@@ -1,4 +1,4 @@
-# -100daysofcode
+# 100daysofcode
 My hundred days of code
 
 - This is my journey for 100 days of learning python programming.
