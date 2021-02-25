@@ -32,12 +32,15 @@ print(password)
 password_list = []
 
 for char in range(1, nr_letters + 1):
+    random.shuffle(letters)
     password_list += random.choice(letters)
 
 for char in range(1, nr_symbols + 1):
+    random.shuffle(symbols)
     password_list += random.choice(symbols)
 
 for char in range(1, nr_numbers + 1):
+    random.shuffle(numbers)
     password_list += random.choice(numbers)
 
 print(password_list)
